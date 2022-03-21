@@ -1,0 +1,90 @@
+
+ html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: roboto, arial, helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: blue;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+/* logo web */
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+#encabezado {
+    background-image: url(../img/carousel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.titulo-centrado {
+    text-align: center;
+}
+
+#subtitulo-quienes-somos {
+    text-align: center;
+    background-color: aqua;
+}
+
+/* Grillas */
+.col {
+    float: left;
+    width: 33%;
+    padding: 10px 10px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+/* Tarjetas */
+.card-body {
+    background-color: black;
+}
+
+.card img {
+    max-height: 180px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 700px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .col {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    #quienes-somos {
+        display: none;
+    }
+}
+
+footer {
+    background-color: aqua;
+}
+
+footer h2 {
+
+}
